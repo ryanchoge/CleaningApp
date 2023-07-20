@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+
+}
+/* Target the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Change the background color */
+  }
+  
+  /* Target the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Change the color of the thumb */
+    border-radius: 5px; /* Add rounded corners to the thumb */
+  }
+  
+  /* Target the scrollbar thumb when hovering */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Change the color of the thumb on hover */
+  }
+  
+  /* Target the scrollbar thumb when it's being dragged */
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #000; /* Change the color of the thumb when active */
+  }
+  
+a {
+    text-decoration: none;
+    color:black
+}
+a :hover{
+    color : rgb(230, 98, 235);
+}
+
+.signUp{
+    padding: 10px;
+    margin: auto;
+    width : 60%; 
+    border-radius : 10px; 
+    border : none; 
+    background-color: aliceblue;
+}
+.signUp :hover{
+    background-color : red;
+}
